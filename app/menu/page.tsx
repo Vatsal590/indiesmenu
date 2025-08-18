@@ -331,7 +331,7 @@ export default function MenuPage() {
         {cart.length === 0 && (
           <section className="bg-cover bg-center h-64 flex items-center justify-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1414235077428-338989a2e8c0)' }}>
             <div className="text-center text-white">
-              <h1 className="text-4xl md:text-5xl font-bold">Bienvenue a Indie's Cafe</h1>
+              <h1 className="text-4xl md:text-5xl font-bold">Bienvenue a Cafe Karmaa Diaries</h1>
               <p className="mt-2 text-lg">Table {table} - Explorez notre menu</p>
             </div>
           </section>

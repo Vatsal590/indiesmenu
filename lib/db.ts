@@ -74,22 +74,22 @@ export async function initializeDatabase() {
       )
     `);
 
-    // Insert default restaurant (Indie's)
+    // Insert default restaurant (Cafe Karmaa Diaries)
     await pool.query(`
       INSERT INTO restaurants (name, display_name, description) 
-      VALUES ('indies', 'Indie''s', 'Indie''s Cafe and Restaurant')
+      VALUES ('indies', 'Cafe Karmaa Diaries', 'Cafe Karmaa Diaries Restaurant')
       ON CONFLICT (name) DO NOTHING
     `);
 
     // Insert default users
     await pool.query(`
       INSERT INTO users (hive_username, display_name) 
-      VALUES ('indies-test', 'Indie''s Test Account')
+      VALUES ('indies-test', 'Cafe Karmaa Diaries Test Account')
       ON CONFLICT (hive_username) DO NOTHING
     `);
     await pool.query(`
       INSERT INTO users (hive_username, display_name) 
-      VALUES ('indies.cafe', 'Indie''s Cafe Account')
+      VALUES ('indies.cafe', 'Cafe Karmaa Diaries Account')
       ON CONFLICT (hive_username) DO NOTHING
     `);
 

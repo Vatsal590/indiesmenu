@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Indie's Café Menu and Order Tracker",
+  title: "Cafe Karmaa Diaries Menu and Order Tracker",
   description: "Created by Innopay and OffChain Luxembourg",
   icons: {
     icon: '/favicon-32x32.png', // Path to your favicon, relative to 'public' folder
