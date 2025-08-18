@@ -1,1 +1,1 @@
-﻿http://indies.innopay.lu/menu?table=
+﻿https://cafekarmaadiaries.vercel.app/menu?table=
